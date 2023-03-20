@@ -10,8 +10,8 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     border: none;
-    height:65%;
-    width: 70%;
+    height:fit-content;
+    width: fit-content;
     font-size: 1.25rem;
     box-shadow: 5px 5px rgb(3, 91, 178);
 }
