@@ -1,0 +1,54 @@
+
+body{
+    background-color: rgb(32, 140, 247);
+}
+.container{
+    background-color: white;
+    color: rgb(32, 140, 247);
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    height:65%;
+    width: 70%;
+    font-size: 1.25rem;
+    box-shadow: 5px 5px rgb(3, 91, 178);
+}
+label{
+    font-weight: bold;
+}
+input{
+    margin:3% 0;
+}
+span{
+    color:red;
+    font-size: 1rem;
+}
+p{
+    text-align: center;
+    color: red;
+    font-size: 25px;
+    margin-top: 55px;
+}
+#sub{
+    padding:10px 25px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin:10px;
+    background: white;
+    color: rgb(32, 140, 247);
+    border: 2px solid rgb(32, 140, 247);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+#sub:hover{
+    cursor: pointer;
+    background: rgb(32, 140, 247);
+    color: white;
+}
+i{
+    color:rgb(10, 200, 10);
+}
